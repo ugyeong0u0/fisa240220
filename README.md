@@ -1,2 +1,2 @@
 # fisa240220
-Jenkins/ ci/cd 
+Jenkins/ ci/cd 연습
