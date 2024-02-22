@@ -2,4 +2,4 @@
 목표 : 
 dd
 dd
-fff
+fff,kjn
