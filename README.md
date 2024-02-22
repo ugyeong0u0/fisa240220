@@ -6,13 +6,19 @@ ssh를 사용하여 서버를 빌드용 배포용으로 나눠 보자!
 <br/>
 ☕ 목차
 1. 최신 깃허브 레포를 받은 로컬 젠킨스에서 빌드 후 aws우분투 인스턴스에 배포하기
+
+<br/>
+
 2. 두개의 aws 인스턴스를 빌드 배포용으로 구분해서 사용한다.
    하나는 젠킨스를 구동하고 나머지 하나는 배포용 이다.
    깃허브 레포에서 수정된 코드는 지속적으로 통합하는건 1번과 같다.
 
+<br/>
+
 ☕ 사용 툴
 virtual box, mobaxterm, docker, Jenkins, aws
 
+<br/>
 
 -------------
 
@@ -20,14 +26,19 @@ virtual box, mobaxterm, docker, Jenkins, aws
 
 > `네트워크 상의 다른 컴퓨터에` 로그인 하거나 원격 시스템에서 명령을 실행하고 다른 시스템으로 파일을 복사할 수 있도록 해주는 `응용 프로그램 또는 프로토콜`
 
+<br/>
 
 ### 2. 최신 깃허브 레포를 받은 로컬 젠킨스에서 빌드 후 aws우분투 인스턴스에 배포하기
 
+<br/>
+
 #### 1. virtual box - 도커위에 젠킨스 로컬로 띄우기 및 gradle변경 및 ssh 플러그인 설치 
+
+<br/>
 
 ✔️ [젠킨스 띄우는 코드는 ci레포 참고](https://github.com/ugyeong0u0/Fisa_CI)
 
-
+<br/>
 
 <details>
  <summary>gradle변경 및 ssh 플러그인 설치</summary>
