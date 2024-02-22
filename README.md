@@ -17,7 +17,7 @@ ssh를 사용하여 서버를 빌드용 배포용으로 나눠 보자!
 <br/>
 
 ☕ 사용 툴
-virtual box, mobaxterm, docker, Jenkins, aws
+virtual box, mobaxterm, docker, Jenkins, aws, ngrok
 
 <br/>
 
@@ -47,7 +47,7 @@ virtual box, mobaxterm, docker, Jenkins, aws
    
 ![gradlealter](https://github.com/ugyeong0u0/localJekins_to_ec2Ubuntu/assets/120684605/fd1d988d-c14c-4679-a4c2-a94800e4c981)
    
-🥹주의 ssh 설치가 다 완료됐다고하면 다른 페이지로 넘어가기!! 중간에 넘어가면 설치가된것도 안된것도 아닌 상태 지워도 안되고 몇분간 사용 못함...
+##### 🥹주의 ssh 설치가 다 완료됐다고하면 다른 페이지로 넘어가기!! 중간에 넘어가면 설치가된것도 안된것도 아닌 상태 지워도 안되고 몇분간 사용 못함...
 
 ![sshplugin](https://github.com/ugyeong0u0/localJekins_to_ec2Ubuntu/assets/120684605/d33489bb-355e-40dc-a1b4-c234ebf7ce80)
 
@@ -183,7 +183,7 @@ pipeline {
 
 <br/>
 
-### 6. ngrok 대신 다른 aws인스턴스 사용시 
+### 7. ngrok 대신 다른 aws인스턴스 사용시 
 1~5까지 방법은 같으며 젠킨스 접속 url과 웹훅 payload에 http://젠킨스가 설치된 퍼블릭 ipv4 주소 혹은 퍼블릭 ipv dns 사용 혹은 aws 데시보드에서 보안접속 젠킨스 포트 추가 해주면 http://localhost:포트번호 로도 접속가능  
 
 ☕⭐😇 중간에 네트워크 에러로 인스턴스와 mobaxterm 연결이 끊어졌었다. 이때 바로 재접속을 했자만 전에 만든 test디렉터리를 찾을 수 없없다. 그 이유는 aws 인스턴스를 종료하지 않는한 데이터는 살아있는데 ip가 변경되었기 때문이였다. elastic ip로 ip고정사용해주면 되는데 돈이 나간다고 한다. 
