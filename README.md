@@ -190,5 +190,6 @@ pipeline {
 
 ### 8. 결과
 
-![결과](https://github.com/ugyeong0u0/localJekins_to_ec2Ubuntu/assets/120684605/bdcb3e30-ccac-4f1f-8cc2-71b6acccdb1a)
+![결과](https://github.com/ugyeong0u0/localJekins_to_ec2Ubuntu/assets/120684605/560ecd7c-349c-4992-a347-736231e2a208)
+
 
