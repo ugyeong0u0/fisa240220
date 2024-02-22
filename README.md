@@ -175,10 +175,13 @@ pipeline {
 }
 
 ````
+<br/>
 
 ### 6. 깃허브 해당 레포 settings에서 웹 훅 설정
 
 이때 젠킨스를 로컬에서 돌리기 때문에 ngrok 사용 -> ✔️ [ngrok관련은 ci레포 참고](https://github.com/ugyeong0u0/Fisa_CI)
+
+<br/>
 
 ### 6. ngrok 대신 다른 aws인스턴스 사용시 
 1~5까지 방법은 같으며 젠킨스 접속 url과 웹훅 payload에 http://젠킨스가 설치된 퍼블릭 ipv4 주소 혹은 퍼블릭 ipv dns 사용 혹은 aws 데시보드에서 보안접속 젠킨스 포트 추가 해주면 http://localhost:포트번호 로도 접속가능  
